@@ -1,5 +1,5 @@
 # KelMa - Serviços
-### Profissionais autonomos é no KelMa.
+> Profissionais autonomos é no KelMa.
 
 **KelMa - Serviços** é uma plataforma que conecta profissionais autônomos com clientes em busca de serviços especializados. Inspirado em soluções como GetNinjas, o KelMa permite que profissionais se cadastrem, divulguem seus trabalhos e recebam propostas de clientes interessados.
 
