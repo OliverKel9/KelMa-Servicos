@@ -5,17 +5,17 @@
 
 ## Índice
 
-- Visão Geral
-- Funcionalidades
-- Tecnologias Utilizadas
+- `Visão Geral`
+- `Funcionalidades`
+- `Tecnologias Utilizadas`
 
 
-### `Visão Geral`
+### Visão Geral
 
 KelMa - Serviços foi desenvolvido para facilitar a vida de profissionais autônomos, permitindo que eles criem perfis detalhados e compartilhem seu portfólio com clientes em potencial. Por outro lado, os clientes podem facilmente encontrar e contratar profissionais adequados para suas necessidades.
 
 
-### `Funcionalidades`
+### Funcionalidades
 
 - Cadastro de profissionais autônomos com perfil personalizado.
 - Upload de portfólios e exemplos de trabalhos realizados.
@@ -24,7 +24,7 @@ KelMa - Serviços foi desenvolvido para facilitar a vida de profissionais autôn
 - Sistema de mensagens para comunicação direta entre clientes e profissionais.
 
 
-### `Tecnologias Utilizadas`
+### Tecnologias Utilizadas
 
 - Backend: PHP, AJAX
 - Framework: Laravel
