@@ -5,9 +5,9 @@
 
 ## Índice
 
-- `Visão Geral`
-- `Funcionalidades`
-- `Tecnologias Utilizadas`
+- Visão Geral
+- Funcionalidades
+- Tecnologias Utilizadas
 
 
 ### Visão Geral
