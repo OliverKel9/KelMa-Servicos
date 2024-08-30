@@ -1,0 +1,11 @@
+main h2{
+    background-color:blue;
+}
+
+body {
+    background-image: url('../docs/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para fixar o fundo ao rolar a página */
+    background-size: cover;
+    background-position: center;
+}
