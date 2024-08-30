@@ -5,7 +5,7 @@ main h2{
 body {
     background-image: url('../docs/fundo.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Para fixar o fundo ao rolar a página */
+    background-attachment: fixed; 
     background-size: cover;
     background-position: center;
 }
