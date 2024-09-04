@@ -20,12 +20,31 @@
         </nav>
     </header>
     <form action="" method="get">
-        <input type="text" name="Nome Completo">
-        <input type="number" name="Data de Nascimento">
-        <input type="number" name="Número de Telefone">
-        <input type="number" name="CPF">
-        <input type="text" name="E-mail">
-        <input type="password" name="text_usuario">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="18" max="100" required>
+        <br><br>
+
+
+        <label for="tel">Telefone:</label>
+        <input type="number" id= "tel" name="tel" minlength="11" required>
+        <br><br>
+
+
+        <label for="cpf">CFP:</label>
+        <input type="number" id= "cpf" name="cpf" minlength="11" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" minlength="7" required>
         <input type="submit" name="Cadastrar">
         
     </form>
