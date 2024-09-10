@@ -1,0 +1,7 @@
+$primary-color: cyan; ///criando variavel com uma cor.
+$primary-font: 'Verdana';
+
+body{
+    color: $primary-color;
+    font-family: $primary-font;
+}
