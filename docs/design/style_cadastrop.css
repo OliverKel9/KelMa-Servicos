@@ -12,6 +12,15 @@ body{
     display: flex;
 }
 
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: white;
+    padding: 100px;
+}
 
 .main{
     display: flex;
@@ -22,7 +31,6 @@ body{
     align-items: center;
     position: fixed;
     width: 100%;
-
 }
 
 .logo{
@@ -38,15 +46,7 @@ body{
     font-size: 34px;
 }
 
-.header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    background: white;
-    padding: 100px;
-}
+
 
 .headline{
     margin-left: 10%;
