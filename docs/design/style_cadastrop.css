@@ -54,7 +54,7 @@ main section {
 .box{
     background-color: #ffffff; /* Fundo da caixa */
     border: 1px solid #ddd; /* Borda fina para a caixa */
-    border-radius: 10px; /* Canto arredondado */
+    border-radius: 15px; /* Canto arredondado */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     padding: 20px; /* Espaço interno da caixa */
     width: 300px; /* Largura da caixa */
