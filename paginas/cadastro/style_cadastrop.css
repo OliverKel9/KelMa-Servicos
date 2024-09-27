@@ -3,9 +3,25 @@ main h2{
 }
 
 body {
+    display: flex;
     background-image: url('../design/fundo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    text-align-last: center; 
+}
+
+.label {
+    display: block;
+    margin: 100px auto;
+    justify-content: space-around;
 }
