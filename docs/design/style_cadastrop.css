@@ -22,9 +22,12 @@ header{
     padding: 20px;
     width: 100%; /* Ocupa a largura total */
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    align-items: center; /* Centraliza verticalmente */
-
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza verticalmente o título no header */
+    position: fixed; /* Fixa o header no topo da página */
+    top: 0; /* Garante que o header esteja no topo */
+    left: 0; /* Alinha o header à esquerda */
+    z-index: 1000; /* Garante que o header fique sempre acima do conteúdo */
 }
 
 header h1 {
