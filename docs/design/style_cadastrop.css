@@ -30,8 +30,17 @@ header{
     z-index: 1000; /* Garante que o header fique sempre acima do conteúdo */
 }
 
-header h1 {
-    font-size: 24px;
+.logo{
+    flex: 20%; 
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.logo h1{
+    font-family: "Lobster", sans-serif;
+    color: #180f41;
+    font-size: 34px;
 }
 
 main{
