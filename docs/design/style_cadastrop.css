@@ -52,6 +52,10 @@ section{
     color: #3498db; /* Cor do título */
 }
 
+section a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
 footer{
     margin-top: 100px;
     height: 300px;
