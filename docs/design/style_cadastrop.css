@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(180deg,#180f41, #090422, black);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+header{
+    background-color: #e4ebf0; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px;
+    width: 100%; /* Ocupa a largura total */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza verticalmente o título no header */
+    position: fixed; /* Fixa o header no topo da página */
+    top: 0; /* Garante que o header esteja no topo */
+    left: 0; /* Alinha o header à esquerda */
+    z-index: 1000; /* Garante que o header fique sempre acima do conteúdo */
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.logo h1{
+    font-family: "Lobster", sans-serif;
+    color: #180f41;
+    font-size: 34px;
+}
+
+main{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+}
+
+main section {
+    text-align: center; /* Centraliza o texto dentro da section */
+}
+
+.box{
+    background-color: #ffffff; /* Fundo da caixa */
+    border: 1px solid #ddd; /* Borda fina para a caixa */
+    border-radius: 15px; /* Canto arredondado */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 40px; /* Espaço interno da caixa */
+    width: 400px; /* Largura da caixa */
+    color: #080808; /* Cor do texto */
+    text-align: left; /* Alinhamento do texto */
+
+}
+
+.h2__div{
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    font-size: 20px; /* Tamanho do título */
+    color: #3498db; /* Cor do título */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.box p {
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+    line-height: 1.5; /* Altura da linha */
+}
+
+.box a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg,#180f41, #090422, black);
+    text-align: center;
+    border-top: 5px solid orangered;
+}
+
+
+.logo-rodape{
+    padding: 90px;
+
+}
+
+
+.agencia{
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 34px;
+
+}
