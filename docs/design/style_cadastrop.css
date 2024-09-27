@@ -25,14 +25,10 @@ header{
 }
 
 main{
-    display: flex;
-    flex-flow: row wrap;
-    height: 100px;
-    /* background: orange; */
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
     flex-direction: column; /* Empilha as divs verticalmente */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
