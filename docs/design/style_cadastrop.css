@@ -35,13 +35,14 @@ main{
 }
 
 section{
-    display: inline-block;
-    margin-top: 80px;
-    /* border: 1px solid black; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5%;
-    text-align: center;
+    background-color: #ffffff; /* Fundo da caixa */
+    border: 1px solid #ddd; /* Borda fina para a caixa */
+    border-radius: 10px; /* Canto arredondado */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px; /* Espaço interno da caixa */
+    width: 300px; /* Largura da caixa */
+    color: #333; /* Cor do texto */
+    text-align: left; /* Alinhamento do texto */
 
 }
 
