@@ -34,7 +34,7 @@ main{
     align-items: center; /* Centraliza horizontalmente */
 }
 
-section{
+.box{
     background-color: #ffffff; /* Fundo da caixa */
     border: 1px solid #ddd; /* Borda fina para a caixa */
     border-radius: 10px; /* Canto arredondado */
@@ -52,12 +52,12 @@ section{
     color: #3498db; /* Cor do título */
 }
 
-section p {
+.box p {
     margin-bottom: 10px; /* Espaço entre os parágrafos */
     line-height: 1.5; /* Altura da linha */
 }
 
-section a:hover {
+.box a:hover {
     text-decoration: underline; /* Efeito ao passar o mouse */
 }
 
