@@ -23,55 +23,7 @@ body{
     width: 100%;
 }
 
-.logo{
-    flex: 20%; 
-    margin-left: 50%;
-    /* border: 1px solid red; */
-    text-align: center;
-}
-
-.logo h1{
-    font-family: "Lobster", sans-serif;
-    color: #180f41;
-    font-size: 34px;
-
-}
-
-.Menu{
-    flex:70%;
-    /* border:1px solid blue; */
-    text-align: right;
-    padding: 20px;
-}
-
-.Menu a{
-    color: #180f41;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 20px;
-}
-
-.Menu a:hover{
-    color: orange;
-    border-top: 4px solid #180f41;
-}
-
-#botao{
-    background: #180f41;
-    padding: 10px 25px;
-    color: white;
-    border-radius: 5%;
-    margin-right: 10%;
-    margin-left: 5%;
-}
-
-#botao:hover{
-    border: none;
-    background: gray;
-
-}
-
-.header{
+.container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -81,14 +33,14 @@ body{
     padding: 100px;
 }
 
-.headline{
+/*.headline{
     margin-left: 10%;
     flex: 40%;
-    /* border: 1px solid black; */
+    /* border: 1px solid black; }*/
 
-}
 
-.headline h2{
+
+.h2_div{
     font-weight: 900;
     font-size: 20px;
     color: #180f41;
