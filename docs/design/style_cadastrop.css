@@ -9,6 +9,10 @@
 body{
     margin: 0px;;
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column; /* Empilha as divs verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
 }
 
 
