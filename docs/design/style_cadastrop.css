@@ -12,6 +12,17 @@ body{
     display: flex;
 }
 
+header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    /* background: orange; */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
 
 main{
     display: flex;
@@ -22,52 +33,10 @@ main{
     align-items: center;
     position: fixed;
     width: 100%;
+    flex-direction: column; /* Empilha as divs verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
 }
-
-.logo{
-    flex: 20%; 
-    margin-left: 5%;
-    /* border: 1px solid red; */
-    text-align: center;
-}
-
-.logo h1{
-    font-family: "Lobster", sans-serif;
-    color: #180f41;
-    font-size: 34px;
-}
-
-
-
-.headline{
-    margin-left: 10%;
-    flex: 40%;
-    /* border: 1px solid black; */
-
-}
-
-.headline h2{
-    font-weight: 900;
-    font-size: 20px;
-    color: #180f41;
-    padding: 0;
-    margin: 0;
-}
-
-.img-headline{
-    margin-right: 10%;
-    flex: 40%;
-    /* border: 1px solid red; */
-    text-align: center;
-
-}
-
-
-.headline p{
-    color: orange;
-    text-align: left;
-}
-
 
 section{
     display: inline-block;
@@ -79,55 +48,6 @@ section{
     text-align: center;
 
 }
-
-section h2{
-    width: 100%;
-    font-size: 50px;
-    margin: 0;
-    font-family: 'lobster', cursive;
-    color: #180f41;
-}
-
-.servicos{
-    display: inline-block;
-    margin-top: 5%;
-
-}
-
-.texto-oculto{
-    display: none;
-
-}
-
-.card{
-    display: inline-block;
-    width: 20%;
-    padding: 25px;
-    margin: 1%;
-    border: 1px solid orangered;
-    border-radius: 10px;
-    cursor: pointer;
-
-}
-
-.card:hover{
-    background: #180f41;
-    color: white;
-    padding: 40px;
-}
-
-.card:hover img{
-    display: none;
-}
-
-.card:hover .card-text{
-    display: none;
-}
-
-.card:hover .texto-oculto{
-    display: block;
-}
-
 
 footer{
     margin-top: 100px;
