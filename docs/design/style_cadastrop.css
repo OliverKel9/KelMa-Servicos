@@ -52,6 +52,11 @@ section{
     color: #3498db; /* Cor do título */
 }
 
+section p {
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+    line-height: 1.5; /* Altura da linha */
+}
+
 section a:hover {
     text-decoration: underline; /* Efeito ao passar o mouse */
 }
