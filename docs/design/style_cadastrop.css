@@ -46,6 +46,12 @@ section{
 
 }
 
+.h2__div{
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    font-size: 20px; /* Tamanho do título */
+    color: #3498db; /* Cor do título */
+}
+
 footer{
     margin-top: 100px;
     height: 300px;
