@@ -65,8 +65,8 @@ main section {
     border: 2px solid #ddd; /* Borda fina para a caixa */
     border-radius: 15px; /* Canto arredondado */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    padding: 50px; /* Espaço interno da caixa */
-    width: 500px; /* Largura da caixa */
+    padding: 60px; /* Espaço interno da caixa */
+    width: 600px; /* Largura da caixa */
     color: #ffffff; /* Cor do texto */
     text-align: left; /* Alinhamento do texto */
 
