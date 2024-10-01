@@ -1,0 +1,129 @@
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #180f41;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #333;
+}
+
+/* body header {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+} */
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1500px; /* Aumenta o espaço máximo para caber mais facilmente os dois blocos */
+}
+
+.services-box {
+    width: 1071px;
+    height: 809px;
+    background: linear-gradient(145deg, #3498db, #2980b9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.services-box h2 {
+    font-size: 3rem; /* Texto maior */
+    font-weight: bold;
+
+}
+
+.comments-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 809px; /* Ajusta a altura dos comentários para ser igual à caixa de serviços */
+    align-items: flex-start; /* Alinha ao início da coluna */
+}
+
+.comment-box {
+    width: 364px;
+    height: 250px; /* Aumenta a altura dos comentários */
+    background: linear-gradient(145deg, #e67e22, #d35400);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.comment-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    /* background: orange; */
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+    width: 80%;
+}
+
+.logo{
+    flex: 20%; 
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.logo h1{
+    color: white;
+    font-size: 34px;
+
+}
+
+.Menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 400px; */
+    flex:70%;
+    /* border:1px solid blue; */
+    text-align: right;
+    padding: 20px;
+}
+
+.Menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.Menu a:hover{
+    color: orange;
+    border-top: 4px solid white;
+}
