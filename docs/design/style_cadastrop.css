@@ -89,16 +89,6 @@ main section {
     text-decoration: underline; /* Efeito ao passar o mouse */
 }
 
-.formulario {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
 .formulario label {
     font-size: 18px;
     color: #333;
