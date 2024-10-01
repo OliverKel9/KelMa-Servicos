@@ -73,7 +73,7 @@ main section {
 }
 
 .h2_div{
-    margin-bottom: 20px; /* Espaço abaixo do título */
+    margin-bottom: 50px; /* Espaço abaixo do título */
     font-size: 25px; /* Tamanho do título */
     color: #3498db; /* Cor do título */
     justify-content: center; /* Centraliza horizontalmente */
