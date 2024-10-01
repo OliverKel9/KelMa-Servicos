@@ -8,7 +8,7 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(180deg,#fdfdfd, #ffffff, rgb(255, 255, 255));; 
+    background-image: linear-gradient(180deg,#fdfdfd, #f5f3fd, rgb(255, 255, 255));; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -91,7 +91,7 @@ main section {
 
 .formulario label {
     font-size: 18px;
-    color: #fffafa;
+    color: #333;
 }
 
 .formulario input {
