@@ -8,7 +8,7 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(180deg,#fdfdfd, #686380, rgb(52, 53, 100));; 
+    background-image: linear-gradient(180deg,#fdfdfd, #9a94b4, rgb(73, 74, 122));; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -75,13 +75,13 @@ main section {
 .h2_div{
     margin-bottom: 50px; /* Espaço abaixo do título */
     font-size: 25px; /* Tamanho do título */
-    color: #4462e6; /* Cor do título */
+    color: #6a5cf0; /* Cor do título */
     justify-content: top; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
 }
 
 .box p {
-    margin-bottom: 10px; /* Espaço entre os parágrafos */
+    margin-bottom: 15px; /* Espaço entre os parágrafos */
     line-height: 1.5; /* Altura da linha */
 }
 
