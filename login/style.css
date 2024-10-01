@@ -117,13 +117,3 @@ body{
 button a {
     text-decoration: none;
 }
-
-a:visited {
-    color: inherit;
-    text-decoration: none;
-}
-
-.botao_login {
-    background-color: #fff;
-    padding: ;
-}
