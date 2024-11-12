@@ -7,7 +7,7 @@
 
 
 body{
-    background: url(/KelMa-Servicos/docs/login/fundoteladelogin.jpg) no-repeat;
+    background: url(/docs/login/fundoteladelogin.jpg) no-repeat;
     background-size: contain;
     margin: 0px;;
     font-family: "Roboto", sans-serif;
@@ -150,7 +150,7 @@ section h2{
     border: 1px solid orangered;
     border-radius: 10px;
     cursor: pointer;
-    text-decoration: none;
+
 }
 
 .card:hover{
@@ -160,6 +160,7 @@ section h2{
 }
 
 .card:hover img{
+
     display: none;
 }
 
