@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: "Lobster", sans-serif;
     background-image: linear-gradient(180deg,#180f41, #090422, black);
     display: flex;
     flex-direction: column;
@@ -37,6 +37,9 @@ nav{
 .logo{
     flex: 20%;
     text-align: center;
+    font-size: 100px;
+    color: #080808;
+    text-decoration: none;
 }
 
 .logo h1{

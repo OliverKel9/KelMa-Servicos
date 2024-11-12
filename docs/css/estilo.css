@@ -112,7 +112,7 @@ body{
 
 section{
     display: inline-block;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     /* border: 1px solid black; */
     margin-left: 5%;
     margin-right: 5%;
@@ -135,11 +135,6 @@ section h2{
 
 }
 
-.texto-oculto{
-    display: none;
-
-}
-
 .card{
     display: inline-block;
     background-color: #eceff4;
@@ -150,28 +145,15 @@ section h2{
     border: 1px solid orangered;
     border-radius: 10px;
     cursor: pointer;
+    transition: transform 0.9s ease;
 
 }
 
 .card:hover{
-    background: #eceff4;
-    color: black;
-    padding: 60px;
+    background: #f89520;
+    color: white;  
+    transform: scale(1.1);
 }
-
-.card:hover img{
-
-    display: none;
-}
-
-.card:hover .card-text{
-    display: none;
-}
-
-.card:hover .texto-oculto{
-    display: block;
-}
-
 
 footer{
     margin-top: 100px fixed;
