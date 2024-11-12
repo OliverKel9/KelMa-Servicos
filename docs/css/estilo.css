@@ -42,6 +42,9 @@ body{
     flex:70%;
     text-align: right;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 .Menu a{
@@ -176,3 +179,50 @@ footer{
     font-size: 34px;
 
 }
+
+.foto {
+    width: 100px;
+    height: 100px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 0 1px 5px #180f41;
+    border: 2px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    /* color: black; */
+    justify-content: center;
+    position: absolute;
+    background-color: white; 
+    min-width: 90px;
+    border-radius: 5px;
+    z-index: 1100;
+    right: 0;
+  }
+
+  .dropdown-content a {
+    color: #090422;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    z-index: 1000;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown img{
+    cursor: pointer;
+  }
