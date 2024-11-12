@@ -7,6 +7,8 @@
 
 
 body{
+    background: url(/KelMa-Servicos/docs/login/fundoteladelogin.jpg) no-repeat;
+    background-size: contain;
     margin: 0px;;
     font-family: "Roboto", sans-serif;
 }
@@ -16,30 +18,28 @@ body{
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    /* background: orange; */
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: none;
     width: 100%;
 }
 
-.logo{
+.logo {
+    font-family: "Lobster", sans-serif;
+    text-decoration: none;
+    color: #180f41;
+    font-size: 45px;
     flex: 20%; 
     margin-left: 5%;
-    /* border: 1px solid red; */
     text-align: center;
 }
-
-.logo h1{
-    font-family: "Lobster", sans-serif;
+.logo a{
+    text-decoration: none;
     color: #180f41;
-    font-size: 34px;
-
 }
 
 .Menu{
     flex:70%;
-    /* border:1px solid blue; */
     text-align: right;
     padding: 20px;
 }
@@ -53,7 +53,7 @@ body{
 
 .Menu a:hover{
     color: orange;
-    border-top: 4px solid #180f41;
+    border-bottom: none solid #180f41;
 }
 
 #botao{
@@ -77,7 +77,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 600px;
-    background: white;
     padding: 100px;
 }
 
@@ -90,7 +89,7 @@ body{
 
 .headline h2{
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
     color: #180f41;
     padding: 0;
     margin: 0;
@@ -143,19 +142,21 @@ section h2{
 
 .card{
     display: inline-block;
+    background-color: #eceff4;
+    color: black;
     width: 20%;
     padding: 25px;
     margin: 1%;
     border: 1px solid orangered;
     border-radius: 10px;
     cursor: pointer;
-
+    text-decoration: none;
 }
 
 .card:hover{
-    background: #180f41;
-    color: white;
-    padding: 40px;
+    background: #eceff4;
+    color: black;
+    padding: 60px;
 }
 
 .card:hover img{
@@ -172,7 +173,7 @@ section h2{
 
 
 footer{
-    margin-top: 100px;
+    margin-top: 100px fixed;
     height: 300px;
     background-image: linear-gradient(180deg,#180f41, #090422, black);
     text-align: center;
@@ -181,8 +182,8 @@ footer{
 
 
 .logo-rodape{
-    padding: 90px;
-
+    padding: 40px;
+    margin-top: fixed;
 }
 
 
