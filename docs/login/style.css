@@ -17,12 +17,14 @@ body{
 
 .wrapper{
     width: 420px;
-    /* background: rgb(71, 71, 255); */
-    color: #000000;
+    background: #210af1; 
+    background: -webkit-linear-gradient(to right, #f79748, #210af1);
+    background: linear-gradient(to right, #f79748, #210af1); 
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 7px;
+    border-radius: 20px;
     padding: 20px 20px;
-
+    width: 25%;
+    height: 400px;
 }
 
 .wrapper h1{
@@ -36,6 +38,7 @@ body{
     height: 50px;
     margin: 30px 0;
     background: #fff;
+    border-radius: 20px;
 }
 
 .input-box input{
