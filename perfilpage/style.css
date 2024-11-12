@@ -1,17 +1,23 @@
 
-body {
-    font-family: Arial, sans-serif;
-    padding: 0px;
-    background: url(fundoteladelogin.jpg) no-repeat;    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-
+main {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+  
+body{
+  background: url(fundoteladelogin.jpg) no-repeat;    
+  background-size: cover;
+  margin: 0px;;
+  font-family: "Roboto", sans-serif; 
+}
 .card {
     display: flex;
     flex-direction: row;
@@ -138,4 +144,61 @@ body {
     color: white;    
   }
 
+  .navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: none;
+    width: 100%;
+}
+
+.logo {
+  font-family: "Lobster", sans-serif;
+  text-decoration: none;
+  color: #180f41;
+  font-size: 45px;
+  flex: 20%; 
+  margin-left: 5%;
+  text-align: center;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #180f41;
+}
+
+.Menu{
+  flex:70%;
+  text-align: right;
+  padding: 20px;
+}
+
+.Menu a{
+  color: #180f41;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.Menu a:hover{
+  color: orange;
+  border-bottom: none solid #180f41;
+}
+
+#botao{
+  background: #180f41;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5%;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+#botao:hover{
+  border: none;
+  background: gray;
+
+}
 
