@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-image: url(fundoteladelogin.jpg) no-repeat;
+    background-image: url(fundotelacadastro.jpg) no-repeat;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
