@@ -8,7 +8,7 @@
 
 body{
     background: url(/docs/login/fundoteladelogin.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin: 0px;;
     font-family: "Roboto", sans-serif;
 }
