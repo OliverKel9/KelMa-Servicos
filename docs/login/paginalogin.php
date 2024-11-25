@@ -27,7 +27,7 @@
                 <br>
                 <button type="submit" class="botao-login">Entrar</button>
                 <br>
-                <p style="margin-top: 15px;">Não tem uma conta? <a href="docs/cadastro/cadastro.php"><strong>cadastre-se</strong></a></p>
+                <p style="margin-top: 15px;">Não tem uma conta? <a href="/cadastro/cadastro.php"><strong>cadastre-se</strong></a></p>
             </div>
         </form>
     </div>
