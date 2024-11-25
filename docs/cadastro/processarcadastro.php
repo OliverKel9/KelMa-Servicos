@@ -1,6 +1,6 @@
 <?php
 // Inclui o arquivo de conexão com o banco
-include_once '../includes/db_connect.php';
+include_once '../includes/db.php';
 
 // Verifica se os dados foram enviados via POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
