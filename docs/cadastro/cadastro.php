@@ -17,8 +17,8 @@
                 <a href="#">Kelma</a>
             </div>
             <div class="Menu">
-                <a href="/index.php">Início</a>
-                <a id="botao" href="/login/paginalogin.php">Entrar</a>
+                <a href="index.php">Início</a>
+                <a id="botao" href="login/paginalogin.php">Entrar</a>
             </div>
         </nav>  
     </header>
