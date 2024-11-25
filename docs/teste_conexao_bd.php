@@ -1,5 +1,5 @@
 <?php
-include_once 'caminho_para_o_arquivo/db_connect.php';
+include_once 'includes/db.php';
 
 if ($pdo) {
     echo "Conexão bem-sucedida!";
