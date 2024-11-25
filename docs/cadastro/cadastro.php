@@ -12,13 +12,15 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo">
-                <h1>KELMA</h1>
+                <a href="#">Kelma</a>
             </div>
-
-        </nav>
-            
+            <div class="Menu">
+                <a href="#inicio">Início</a>
+                <a href="#cadastre">Cadastre-se</a>
+            </div>
+        </nav>  
     </header>
 
     <main>
@@ -56,7 +58,7 @@
                 <br><br><br>
                 <br>
 
-               <a href="/inicio/inicio.html" style=" padding: 10px 80px; background-color: white; border-radius: 10px; font-size: 16px; text-decoration: none; ">Cadastrar</a>
+               <a href="/docs/index.html" style=" padding: 10px 80px; background-color: white; border-radius: 10px; font-size: 16px; text-decoration: none; ">Cadastrar</a>
                 
             </form>
 
