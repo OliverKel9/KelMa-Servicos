@@ -53,7 +53,7 @@
                     
                 </div>
                 <div class="texto-oculto">
-                    <h3 a href="/serviços/serviços.html">Outro couteudo qualquer</a></h3>
+                    <h3 a href="/serviços/serviços.php">Outro couteudo qualquer</a></h3>
                     <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
                 </div>
 
@@ -66,7 +66,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
             </div>
             <div class="texto-oculto">
-                <h3 a href="/serviços/serviços.html">Outro couteudo qualquer</a></h3>
+                <h3 a href="/serviços/serviços.php">Outro couteudo qualquer</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
             </div>
 
@@ -79,7 +79,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
                 </div>
                 <div class="texto-oculto">
-                    <h3 a href="/serviços/serviços.html">Outro couteudo qualquer</a></h3>
+                    <h3 a href="/serviços/serviços.php">Outro couteudo qualquer</a></h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
                 </div>
 
@@ -92,7 +92,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
                 </div>
                 <div class="texto-oculto">
-                    <h3 a href="/serviços/serviços.html">Outro couteudo qualquer</a></h3>
+                    <h3 a href="/serviços/serviços.php">Outro couteudo qualquer</a></h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
                 </div>
 
