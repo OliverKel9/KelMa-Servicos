@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $dbname = 'KelMa';
-$user = 'seu_usuario';
+$user = 'postgres';
 $password = 'kel123!';
 
 try {
