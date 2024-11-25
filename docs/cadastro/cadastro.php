@@ -18,7 +18,7 @@
             </div>
             <div class="Menu">
                 <a href="/docs/index.php">Início</a>
-                <a id="botao" href="login/paginalogin.php">Entrar</a>
+                <a id="botao" href="/docs/login/paginalogin.php">Entrar</a>
             </div>
         </nav>  
     </header>
