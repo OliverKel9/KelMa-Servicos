@@ -50,13 +50,13 @@ body {
 }
 
 .logo {
-    font-family: "Lobster", sans-serif;
-    text-decoration: none;
-    color: #180f41;
-    font-size: 45px;
-    flex: 20%; 
-    margin-left: 5%;
-    text-align: center;
+  font-family: "Lobster", sans-serif;
+  text-decoration: none;
+  color: #180f41;
+  font-size: 45px;
+  flex: 20%;
+  margin-left: 3%;
+  text-align: center;
 }
 .logo a{
     text-decoration: none;
@@ -64,12 +64,14 @@ body {
 }
 
 .Menu{
-    flex:70%;
-    text-align: right;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+  flex: 70%;
+  text-align: right;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 125px;
+  font-size: 30px;
 }
 
 a {

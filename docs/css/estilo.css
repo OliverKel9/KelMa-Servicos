@@ -17,7 +17,7 @@ body{
 .navbar{
     display: flex;
     flex-flow: row wrap;
-    height: 100px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     position: none;
@@ -38,13 +38,15 @@ body{
     color: #180f41;
 }
 
-.Menu{
-    flex:70%;
+
+.Menu {
+    flex: 50%;
     text-align: right;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-right: 11%;
 }
 
 .Menu a{
@@ -74,12 +76,13 @@ body{
 
 }
 
-.header{
+.header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     height: 600px;
+    margin-left: 5%;
     padding: 100px;
 }
 
@@ -113,15 +116,12 @@ body{
 }
 
 
-section{
+section {
     display: inline-block;
-    /* margin-top: 80px; */
-    /* border: 1px solid black; */
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     padding: 5%;
     text-align: center;
-
 }
 
 section h2{
@@ -138,20 +138,21 @@ section h2{
 
 }
 
-.card{
+.card {
     display: inline-block;
     background-color: #eceff4;
     color: black;
     width: 20%;
-    padding: 25px;
-    margin: 1%;
+    padding: 27px;
+    margin: 22px;
     border: 1px solid orangered;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.9s ease;
-
+    overflow: hidden;
+    width: 386px;
+    height: 282px;
 }
-
 .card:hover{
     background: #f89520;
     color: white;  
@@ -179,50 +180,3 @@ footer{
     font-size: 34px;
 
 }
-
-.foto {
-    width: 100px;
-    height: 100px;
-    max-width: 200px;
-    border-radius: 50%;
-    margin: 10px;
-    box-shadow: 0 0 1px 5px #180f41;
-    border: 2px;
-  }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    /* color: black; */
-    justify-content: center;
-    position: absolute;
-    background-color: white; 
-    min-width: 90px;
-    border-radius: 5px;
-    z-index: 1100;
-    right: 0;
-  }
-
-  .dropdown-content a {
-    color: #090422;
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-    z-index: 1000;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown img{
-    cursor: pointer;
-  }
