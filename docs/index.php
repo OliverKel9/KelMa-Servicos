@@ -19,7 +19,7 @@
             <a href="/inicio/inicio.html">Inicio</a>
             <!-- <a href="#">Sobre Nós</a> -->
             <a href="/cadastro/cadastro.html">Cadastre-se</a>
-            <a id="botao" href="/login/paginalogin.html">Entrar</a>
+            <a id="botao" href="/login/paginalogin.php">Entrar</a>
         </div>
     
     </nav>
