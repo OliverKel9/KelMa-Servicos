@@ -8,9 +8,6 @@
     <script src='main.js'></script>
     <title>Cadastro para Prestador de Serviço</title>
     <link rel="stylesheet" href="cadastro.css">
-    <?php
-        define('BASE_URL', '/');
-    ?>
 </head>
 
 <body>
@@ -20,7 +17,7 @@
                 <a href="#">Kelma</a>
             </div>
             <div class="Menu">
-                <a href="<?php echo BASE_URL; ?>index.php">Início</a>
+                <a href="index.php">Início</a>
                 <a id="botao" href="login/paginalogin.php">Entrar</a>
             </div>
         </nav>  
