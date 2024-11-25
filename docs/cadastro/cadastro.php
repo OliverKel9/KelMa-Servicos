@@ -28,7 +28,7 @@
 
             <div class="h2_div"><h2>Cadastro</h2></div>
             <br>
-            <form action="" method="get">
+            <form action="processar_cadastro.php" method="post">
                 <label for="nome">Nome Completo:</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome"required>
                 <br><br><br>
@@ -58,7 +58,7 @@
                 <br><br><br>
                 <br>
 
-               <a href="/docs/index.html" style=" padding: 10px 80px; background-color: white; border-radius: 10px; font-size: 16px; text-decoration: none; ">Cadastrar</a>
+                <button type="submit" style="padding: 10px 80px; background-color: white; border-radius: 10px; font-size: 16px;">Cadastrar</button>
                 
             </form>
 
