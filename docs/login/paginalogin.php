@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="process_login.php" method="POST">
+        <form action="processlogin.php" method="POST">
             <h1>Kelma</h1>
             <div class="input-box">
                 <input type="email" name="email" placeholder="e-mail" required>
