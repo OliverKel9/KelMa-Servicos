@@ -19,15 +19,6 @@ try {
     $stmt->execute();
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    echo '<pre>';
-    echo "Email enviado: " . htmlspecialchars($email) . "\n";
-    $stmt = $pdo->prepare("SELECT id, senha FROM clientes WHERE email = :email");
-    $stmt->bindParam(':email', $email);
-    $stmt->execute();
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-    print_r($user);
-    echo '</pre>';
-    exit;
 
     if ($user && password_verify($password, $user['senha'])) {
         // Login bem-sucedido
