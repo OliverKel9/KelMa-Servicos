@@ -6,19 +6,22 @@
     <meta name="description" content="KelMa">
     <title>Projeto Faculdade</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="docs/css/responsivo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 
 </body>
 
     <nav class="navbar">
         <div class="logo">
-            <h1>KelMa</h1>
+            <a href="/docs/index.html">KelMa</a>
         </div>
         <div class="Menu">
-            <!-- <a href="#">Sobre Nós</a> -->
+            <a href="/docs/index.html">Inicio</a>
+         
             <a href="cadastro/cadastro.php">Cadastre-se</a>
+
             <a id="botao" href="login/paginalogin.php">Entrar</a>
+        </div>
         </div>
     
     </nav>
@@ -27,7 +30,7 @@
         <div class="headline">
             <h2 style="letter-spacing: 5px;">Os melhores prestadores de</h2>
             <h2 style="font-size: 80px;">Serviços</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo quod eveniet maiores. Libero reiciendis voluptatem sunt quia similique iste amet aperiam fugit? Illum tempora cumque et ullam tenetur vel obcaecati?</p>
+            <p style="font-size: 20px;">KelMa - Foi criado para facilitar a vida de quem busca profissionais para determinado serviço. Aqui, você pode encontrar especialistas qualificados para atender às suas necessidades. Tudo de forma rápida, prática e confiável!</p>
 
         </div>
 
@@ -41,58 +44,36 @@
 
     
         <h2> Qual serviço procura??</h2>
+        <br>
 
         <div class="Servicos">
-                <div class="card">
-                    <a href="/servicos/servicos.html">
-                    <img src="img/Martelo.png">
-                    <div class="card-text">
-                    <h3>Marceneiro</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
-                    
-                </div>
-                <div class="texto-oculto">
-                    <h3 a href="servicos/servicos.php">Outro couteudo qualquer</a></h3>
-                    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
-                </div>
-
-            </div>
-
+            <a href="/docs/serviços/serviços.php">
             <div class="card">
-            <div class="card-text">
-                <img src="img/Pincel.png">
-                <h3>Pintor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
-            </div>
-            <div class="texto-oculto">
-                <h3 a href="servicos/servicos.php">Outro couteudo qualquer</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
-            </div>
-
-            </div>
-            
-            <div class="card">
-                <img src="img/chave.png.png">
+                <img src="img/Martelo.png">
                 <div class="card-text">
-                <h3>Eletricista</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
-                </div>
-                <div class="texto-oculto">
-                    <h3 a href="servicos/servicos.php">Outro couteudo qualquer</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
-                </div>
-
+                <h3>Marceneiro</h3>
+                <p> Operário industrial que trabalha com madeira em tábua, na fabricação de móveis e certos objetos. Em decoração de interiores, e que, eventualmente, também. Domina técnicas de entalhe, embutidos etc.</p>
             </div>
-            
+            </div>
             <div class="card">
-                <img src="img/Chave-ingkesa.png.png">
                 <div class="card-text">
-                <h3>Encanador</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
+                    <img src="img/Pincel.png">
+                    <h3>Pintor</h3>
+                    <p>Profissional especializado na aplicação de tintas, vernizes e outros revestimentos em superfícies diversas, como paredes, tetos e estruturas metálicas.</p>
                 </div>
-                <div class="texto-oculto">
-                    <h3 a href="servicos/servicos.php">Outro couteudo qualquer</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos cum aliquam suscipit ad, blanditiis, repudiandae tenetur ut nulla eum ratione ipsum velit minus architecto cumque. Sit vero magni blanditiis!</p>
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <img src="img/chave.png.png">
+                    <h3>Eletricista</h3>
+                    <p>Proficional especialista em instalações elétricas residenciais e industriais. Eletricistas podem ser empregados em instalação de novas componentes elétricas ou em manutenção e reparação de infra-estruturas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <img src="img/Chave-ingkesa.png.png">
+                    <h3>Encanador</h3>
+                    <p>Proficional responsável pelo assentamento dos canos de distribuição de água e de gás, assim como o de filtros, louças sanitárias.</p>
                 </div>
 
             </div>
@@ -107,10 +88,6 @@
         <p style="color: white;">Slogam da empresa</p>
         </div>
     </footer>
-
-
-
-
 
 
 </body>
