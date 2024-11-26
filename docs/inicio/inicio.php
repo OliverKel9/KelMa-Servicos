@@ -13,7 +13,7 @@
 
     <nav class="navbar">
         <div class="logo">
-            <a href="/docs/Inicio/inicio.html">KelMa</a>
+            <a href="/docs/Inicio/inicio.php">KelMa</a>
         </div>
         <div class="Menu">
             <a href="/docs/Inicio/inicio.html">Inicio</a>

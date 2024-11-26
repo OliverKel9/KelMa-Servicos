@@ -16,7 +16,6 @@
             <h1>KelMa</h1>
         </div>
         <div class="Menu">
-            <a href="inicio/inicio.php">Inicio</a>
             <!-- <a href="#">Sobre Nós</a> -->
             <a href="cadastro/cadastro.php">Cadastre-se</a>
             <a id="botao" href="login/paginalogin.php">Entrar</a>
