@@ -46,7 +46,7 @@ if (!$user) {
 
         <!-- Botão para excluir conta -->
         <form action="excluirconta.php" method="POST">
-            <input type="hidden" name="user_id" value="1"> <!-- ID do usuário a ser deletado -->
+        <input type="hidden" name="user_id" value="<?= $_SESSION['user_id']; ?>"> <!-- Passando o user_id do usuário -->
             <button type="submit" name="deletar" onclick="return confirm('Você tem certeza de que deseja excluir sua conta?')">Excluir Conta</button>
         </form>
         
