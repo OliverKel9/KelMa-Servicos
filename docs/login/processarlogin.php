@@ -22,7 +22,7 @@ if ($user && password_verify($password, $user['senha'])) {
     // Login bem-sucedido
     session_start();
     $_SESSION['user_id'] = $user['id'];
-    header("Location: /dashboard.php"); // Redireciona para a página principal
+    header("Location: docs/index.php"); // Redireciona para a página principal
     exit;
 } else {
     // Falha no login
