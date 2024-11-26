@@ -28,7 +28,7 @@
 
             <div class="h2_div"><h2>Cadastro</h2></div>
             <br>
-            <form action="processar_cadastro.php" method="post">
+            <form action="processarcadastro.php" method="post">
                 <label for="nome_completo">Nome Completo:</label>
                 <input type="text" id="nome_completo" name="nome" placeholder="Nome"required>
                 <br><br><br>
