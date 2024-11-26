@@ -50,7 +50,7 @@ if (!$user) {
         </form>
         
         <!-- Botão para sair da conta -->
-        <form action="logout.php" method="POST">
+        <form action="/docs/index.php" method="POST">
             <button type="submit">Sair</button>
         </form>
     </div>
