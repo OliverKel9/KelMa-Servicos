@@ -4,8 +4,7 @@ include_once 'docs/includes/db.php';
 
 // Iniciar a sessão para obter o ID do usuário logado
 session_start();
-var_dump($_SESSION); // Depuração para ver o que está na sessão
-exit;
+
 
 // Verificar se o usuário está logado
 if (!isset($_SESSION['user_id'])) {
