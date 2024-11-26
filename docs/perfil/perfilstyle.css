@@ -16,7 +16,7 @@ main {
 }
   
 body{
-  background: url(fundoteladelogin.jpg) no-repeat;    
+  background: url(img/) no-repeat;    
   background-size: cover;
   margin: 0px;;
   font-family: "Roboto", sans-serif; 
