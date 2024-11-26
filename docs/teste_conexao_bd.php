@@ -1,7 +1,7 @@
 <?php
 include_once 'includes/db.php';
 
-if ($pdo) {
+if (isset($conn)) {
     echo "Conexão bem-sucedida!";
 } else {
     echo "Erro na conexão!";
