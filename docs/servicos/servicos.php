@@ -1,42 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelma</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="navbar">
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="/docs/serviços/serviçosswiper.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="/docs/serviços/serviços.css">
+
+      <title>Kelma Marceneiro</title>
+   </head>
+   <body>
+     
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/docs/index.html">KelMa</a>
+        </div>
         <div class="Menu">
-            <div>
-                <h1  style="display: flex; justify-content: flex-start; color: white; font-size: 50px;">KelMa</h1>
-            </div>
-            <div>
-                <a href="/inicio/inicio.html">Inicio</a>
-                <!-- <a href="#">Sobre Nós</a> -->
-                <a href="/cadastro/cadastro.html">Cadastre-se</a>
-                <a id="botao" href="/login/paginalogin.html">Entrar</a>
-        
+            <a href="/docs/index.html">Inicio</a>
+                </div>
             </div>
         </div>
-    </header>
-    <main> 
-        <!-- <header style="display: flex; justify-content: flex-start;">Kelma</header> -->
+    
+    </nav>
+    
+    
+    <section class="container">
+         <div class="card__container swiper">
+            <div class="card__content">
+               <div class="swiper-wrapper">
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="/docs/img/pessoa1.jpg" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Fernando</h3>
+                        <p class="card__description">
+                           Disponivel das 7:00 ás 15:00.
+                        </p>
+      
+                        <a href="#" class="card__button">Contrate</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="/docs/img/pessoa2.jpg" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">José</h3>
+                        <p class="card__description">
+                            Disponivel das 7:00 ás 15:00.
+                        </p>
+      
+                        <a href="#" class="card__button">Contrate</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="/docs/img/pessoa3.jpg" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Marcerlo</h3>
+                        <p class="card__description">
+                            Disponivel das 12:00 ás 18:00..
+                        </p>
+      
+                        <a href="#" class="card__button">Contrate</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="/docs/img/pessoa4.jpg" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Cleber</h3>
+                        <p class="card__description">
+                            Disponivel das 14:00 ás 22:00..
+                        </p>
+      
+                        <a href="#" class="card__button">Contrate</a>
 
-        <div class="content-container">
-            <div class="services-box">
-                <h2>Serviços</h2>
+                     </div>
+                  </article>
+               </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+               <i class="ri-arrow-right-s-line"></i>
             </div>
             
-            <div class="comments-section">
-                <div class="comment-box">Comentário 1</div>
-                <div class="comment-box">Comentário 2</div>
-                <div class="comment-box">Comentário 3</div>
-                <div class="comment-box">Comentário 4</div>
-                <div class="comment-box">Comentário 5</div>
+            <div class="swiper-button-prev">
+               <i class="ri-arrow-left-s-line"></i>
             </div>
-        </div>
-    </main>
-</body>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="/docs/serviços/serviçosswiper.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="/docs/serviços/serviços.js"></script>
+
+   </body>
 </html>
