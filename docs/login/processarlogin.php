@@ -8,7 +8,7 @@ $password = $_POST['password'] ?? '';
 
 // Verificar se os campos estão preenchidos
 if (empty($email) || empty($password)) {
-    header("Location: /docs/login/index.php?error=Preencha%20todos%20os%20campos");
+    echo "Por favor, preencha todos os campos.";
     exit;
 }
 
