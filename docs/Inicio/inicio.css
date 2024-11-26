@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(/docs/login/fundoteladelogin.jpg) no-repeat;
+    background-size: cover;
+    margin: 0px;;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: none;
+    width: 100%;
+}
+/* Esconda o menu inicialmente */
+.nav-list {
+    display: table-column;
+    position: flex; /* Para evitar que o menu quebre o layout */
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, );
+    z-index: 1000;
+    list-style: none;   
+}
+
+.nav-list li:hover .sub-menu {
+    display: block;
+}
+
+
+.sub-menu {
+    display: none;
+    position: absolute; /* Para posicionar de forma flutuante */
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    z-index: 1000;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: #180f41;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.sub-menu a:hover {
+    color: white;
+}
+
+
+
+/* Mostra o menu ao passar o mouse */
+.Menu:hover .nav-list {
+    display: table-column-group;
+    cursor: pointer;
+}
+
+/* Estilização dos itens do menu */
+.nav-list li {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.nav-list a {
+    text-decoration: none;
+    display: ;
+
+}
+
+.nav-list a:hover {
+    color: white;
+    border-radius: 5px;
+}
+
+.logo {
+    font-family: "Lobster", sans-serif;
+    text-decoration: none;
+    color: #180f41;
+    font-size: 45px;
+    flex: 20%; 
+    margin-left: 5%;
+    text-align: center;
+}
+.logo a{
+    text-decoration: none;
+    color: #180f41;
+}
+
+
+.Menu {
+    flex: 50%;
+    text-align: right;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 11%;
+}
+
+.Menu a{
+    color: #180f41;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.Menu a:hover{
+    color: orange;
+    border-bottom: none solid #180f41;
+}
+
+#botao{
+    background: #180f41;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: gray;
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-left: 5%;
+    padding: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 30px;
+    color: #180f41;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+
+
+.headline p{
+    color: orange;
+    text-align: left;
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'lobster', cursive;
+    color: #180f41;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card {
+    display: inline-block;
+    background-color: #eceff4;
+    color: black;
+    width: 20%;
+    padding: 27px;
+    margin: 22px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    overflow: hidden;
+    width: 386px;
+    height: 282px;
+}
+.card:hover{
+    background: #f89520;
+    color: white;  
+    transform: scale(1.1);
+}
+
+footer{
+    margin-top: 100px fixed;
+    height: 300px;
+    background-image: linear-gradient(180deg,#180f41, #090422, black);
+    text-align: center;
+    border-top: 5px solid orangered;
+}
+
+
+.logo-rodape{
+    padding: 40px;
+    margin-top: fixed;
+}
+
+
+.agencia{
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 34px;
+
+}
