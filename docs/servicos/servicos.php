@@ -19,10 +19,10 @@
      
     <nav class="navbar">
         <div class="logo">
-            <a href="/docs/index.php">KelMa</a>
+            <a href="/docs/inicio.inicio.php">KelMa</a>
         </div>
         <div class="Menu">
-            <a href="/docs/index.php">Inicio</a>
+            <a href="/docs/inicio.inicio.php">Inicio</a>
                 </div>
             </div>
         </div>
