@@ -51,7 +51,7 @@
         <br>
 
         <div class="Servicos">
-            <a href="/docs/servicos/servicos.html">
+            <a href="/docs/servicos/servicos.php">
             <div class="card">
                 <img src="/docs/img/Martelo.png">
                 <div class="card-text">
