@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ]);
 
         // Redireciona ou exibe mensagem de sucesso
-        header("Location: /docs/inicio.php?cadastro=sucesso");
+        header("Location: /docs/inicio.php?cadastro=sucessoo");
         exit;
     } catch (PDOException $e) {
         echo "Erro ao cadastrar: " . $e->getMessage();
