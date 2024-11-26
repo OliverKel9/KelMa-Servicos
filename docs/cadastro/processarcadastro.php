@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         // Prepara a query de inserção
-        $query = "INSERT INTO clientes (nome_completo, idade, telefone, cpf, email, senha) VALUES (:nome, :idade, :telefone, :cpf, :email, :senha)";
+        $query = "INSERT INTO clientes (nome_completo, idade, telefone, cpf, email, senha) VALUES (:nome_completo, :idade, :telefone, :cpf, :email, :senha)";
         $stmt = $pdo->prepare($query);
 
         // Executa a query com os dados
