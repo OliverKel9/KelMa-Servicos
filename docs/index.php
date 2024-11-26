@@ -16,7 +16,6 @@
             <a href="/docs/index.html">KelMa</a>
         </div>
         <div class="Menu">
-            <a href="/docs/index.html">Inicio</a>
          
             <a href="cadastro/cadastro.php">Cadastre-se</a>
 
