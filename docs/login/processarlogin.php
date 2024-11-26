@@ -1,6 +1,6 @@
 <?php
 // Incluir arquivo de conexão com o banco
-require '../includes/db.php';
+include_once 'docs/includes/db.php';
 
 // Obter os dados do formulário
 $email = $_POST['email'] ?? '';

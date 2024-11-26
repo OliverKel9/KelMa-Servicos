@@ -14,7 +14,7 @@
             <p class="error"><?= htmlspecialchars($_GET['error']) ?></p>
         <?php endif; ?>
 
-        <form action="processlogin.php" method="POST">
+        <form action="processarlogin.php" method="POST">
             <h1>Kelma</h1>
             <div class="input-box">
                 <input type="email" name="email" placeholder="e-mail" required>
