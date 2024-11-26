@@ -13,7 +13,7 @@ if (empty($email) || empty($password)) {
 }
 
 // Buscar usuário no banco de dados
-$stmt = $conn->prepare("SELECT id, senha FROM clientes WHERE email = :email");
+$stmt = $pdo->prepare("SELECT id, senha FROM clientes WHERE email = :email");
 $stmt->bindParam(':email', $email);
 $stmt->execute();
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
