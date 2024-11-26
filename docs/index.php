@@ -46,7 +46,7 @@
         <br>
 
         <div class="Servicos">
-            <a href="/docs/serviços/serviços.php">
+            <a href="login/paginalogin.php">
             <div class="card">
                 <img src="img/Martelo.png">
                 <div class="card-text">
