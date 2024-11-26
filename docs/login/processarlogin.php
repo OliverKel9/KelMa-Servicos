@@ -27,7 +27,7 @@ try {
         exit;
     } else {
         // Falha no login
-        header("Location: /docs/login/index.php?error=Credenciais%20inválidas");
+        header("Location: /docs/index.php?error=Credenciais%20inválidas");
         exit;
     }
 } catch (PDOException $e) {
