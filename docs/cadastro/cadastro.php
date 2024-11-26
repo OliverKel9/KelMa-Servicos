@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-    <title>Cadastro para Prestador de Serviço</title>
+    <title>Cadastro para Cliente</title>
     <link rel="stylesheet" href="cadastro.css">
 </head>
 
