@@ -6,7 +6,7 @@
     <meta name="description" content="KelMa">
     <title>Projeto Faculdade</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="docs/css/responsivo.css">
 </head>
 
 </body>
