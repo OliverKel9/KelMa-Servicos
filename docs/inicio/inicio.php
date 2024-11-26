@@ -20,9 +20,9 @@
             <ul class="nav-list hidden">
                 <li><a href="/">Menu</a>
                     <ul class="sub-menu">
-                        <li><a href="/">Perfil</a></li>
+                        <li><a href="/docs/perfil/perfil.php">Perfil</a></li>
                         <li><a href="/">Contratos</a></li>
-                        <li><a href="/">Sair</a></li>
+                        <li><a href="/docs/index.php">Sair</a></li>
                     </ul>
                 </li>
             </ul>
