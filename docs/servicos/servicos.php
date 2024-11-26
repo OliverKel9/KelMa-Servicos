@@ -8,10 +8,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="/docs/serviços/serviçosswiper.css">
+      <link rel="stylesheet" href="/docs/servicos/servicosswiper.css">
 
       <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="/docs/serviços/serviços.css">
+      <link rel="stylesheet" href="/docs/servicos/servicos.css">
 
       <title>Kelma Marceneiro</title>
    </head>
@@ -19,10 +19,10 @@
      
     <nav class="navbar">
         <div class="logo">
-            <a href="/docs/index.html">KelMa</a>
+            <a href="/docs/index.php">KelMa</a>
         </div>
         <div class="Menu">
-            <a href="/docs/index.html">Inicio</a>
+            <a href="/docs/index.php">Inicio</a>
                 </div>
             </div>
         </div>
@@ -116,10 +116,10 @@
       </section>
       
       <!--=============== SWIPER JS ===============-->
-      <script src="/docs/serviços/serviçosswiper.js"></script>
+      <script src="/docs/servicos/servicosswiper.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="/docs/serviços/serviços.js"></script>
+      <script src="/docs/servicos/servicos.js"></script>
 
    </body>
 </html>
