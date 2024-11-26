@@ -16,7 +16,7 @@ main {
 }
   
 body{
-  background: url(fundotelaperfil.jpg) no-repeat;    
+    background: url(/docs/login/fundoteladelogin.jpg) no-repeat;    
   background-size: cover;
   margin: 0px;;
   font-family: "Roboto", sans-serif; 
