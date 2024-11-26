@@ -40,7 +40,7 @@
 
 
                 <label for="telefone">Telefone:</label>
-                <input type="number" id="telefone" name="tel" placeholder="xx-9-xxxx-xxxx"
+                <input type="number" id="telefone" name="telefone" placeholder="xx-9-xxxx-xxxx"
                 pattern="[0-9]{2}[9]{1}[0-9]{4}[0-9]{4}" required>
                 <br><br><br>
 
