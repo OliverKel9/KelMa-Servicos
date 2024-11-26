@@ -2,10 +2,7 @@
 // Inclui o arquivo de conexão com o banco
 include_once 'docs/includes/db.php';
 
-echo '<pre>';
-print_r($_POST); // Mostra todos os dados enviados
-echo '</pre>';
-exit;
+
 
 // Verifica se os dados foram enviados via POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
