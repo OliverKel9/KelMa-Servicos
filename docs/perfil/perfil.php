@@ -5,6 +5,7 @@ include_once 'docs/includes/db.php';
 // Iniciar a sessão para obter o ID do usuário logado
 session_start();
 
+
 // Verificar se o usuário está logado
 if (!isset($_SESSION['user_id'])) {
     header("Location: /docs/login/index.php?error=Você precisa estar logado para acessar esta página.");
