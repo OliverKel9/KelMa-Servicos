@@ -16,7 +16,6 @@
             <a href="/docs/Inicio/inicio.php">KelMa</a>
         </div>
         <div class="Menu">
-            <a href="/docs/Inicio/inicio.html">Inicio</a>
             <ul class="nav-list hidden">
                 <li><a href="/">Menu</a>
                     <ul class="sub-menu">
